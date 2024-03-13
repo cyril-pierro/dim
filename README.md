@@ -5,5 +5,5 @@
 
 
 ```bash
-   curl -s https://github.com/cyril-pierro/dim/blob/main/dim.sh && mv dim.sh ~/.local/bin/dim.sh && rm -rf dim.sh && chmod +ux ~/.local/bin/dim.sh
+   curl -s https://raw.githubusercontent.com/cyril-pierro/dim/main/dim.sh -o dim.sh && chmod +x dim.sh && mv dim.sh ~/.local/bin/dim && rm -rf dim.sh && exec $SHELL
 ```
